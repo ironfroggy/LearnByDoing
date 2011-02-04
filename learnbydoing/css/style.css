@@ -127,3 +127,24 @@ button {  width: auto; overflow: visible; }
   h2, h3{ page-break-after: avoid; }
 }
 
+
+#main {
+    width: 900px;
+    margin: 100px auto;
+}
+
+#main textarea {
+    width: 400px;
+    height: 300px;
+    font-family: "Courier", monospace;
+}
+    #output {
+        background: black;
+        color: green;
+    }
+
+#run {
+    display: block;
+    clear: both;
+}
+
