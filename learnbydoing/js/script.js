@@ -14,8 +14,17 @@ function print(text) {
     o.val(o.val() + text + '\n');
 };
 
+function clear() {
+    $('#output').val('');
+}
 
-
+function range(x) {
+    var l = [];
+    for (var i=0;i++;i<x) {
+        l.push(i);
+    }
+    return l;
+}
 
 
 
