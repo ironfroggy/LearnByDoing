@@ -139,9 +139,24 @@ button {  width: auto; overflow: visible; }
     font-family: "Courier", monospace;
 }
     #output {
+        display: none;
         background: black;
         color: green;
     }
+    #canvas {
+        display: none;
+    }
+
+    #right {
+        float: right;
+    }
+        #right.text #output {
+            display: block;
+        }
+        #right.gfx #canvas {
+            display: block;
+            border: 1px solid black;
+        }
 
 #run {
     display: block;
